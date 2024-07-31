@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sonido"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="226dp"
+        android:layout_height="186dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.124"
+        app:srcCompat="@drawable/fondologo"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="300dp"
+        android:layout_height="95dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.522"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.452"
+        app:srcCompat="@drawable/ondas"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/image_bpause"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.652"
+        app:srcCompat="@drawable/bpause"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/image_bplay"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.287"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.652"
+        app:srcCompat="@drawable/bplay"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/image_web"
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:src="@drawable/web"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.88"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.822"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/image_face"
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:src="@drawable/face"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.116"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.822"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/image_what"
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:src="@drawable/what"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.822"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/image_insta"
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:src="@drawable/insta"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.304"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.822"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/image_tik"
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:src="@drawable/tik"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.692"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.822"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/image_compartir"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.735"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.652"
+        app:srcCompat="@drawable/compartir"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
